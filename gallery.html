@@ -1,0 +1,347 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, shrink-to-fit=no">
+	<meta http-equiv="X-UA-Compatible" content="IE=Edge">
+
+	<title>Capstone</title>
+
+	<!-- google fonts-->
+
+	<link href="https://fonts.googleapis.com/css?family=Cabin|Lobster" rel="stylesheet">
+
+	<!-- fontawesome icon -->
+
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+
+	<!-- animate css -->
+
+	<link rel="stylesheet" type="text/css" href="assets/css/animate.css">
+
+	<!-- bootstrap css -->
+
+	<link rel="stylesheet" type="text/css" href="assets/css/bootstrap.min.css">
+
+	<!-- external css -->
+
+	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+</head>
+<body>
+
+		
+	<div class="container-fluid p-0">
+
+		<nav id="navbar" class="navbar navbar-expand-lg navbar-dark">
+
+			<form class="col-md-4 form-inline">
+   				 <i id="search-icon" class="fas fa-search mr-4"></i>
+   				 <input id="search" class="form-control mr-sm-2" type="search" placeholder="Search">
+  			</form>
+  			<a id="brand-name" class="col-md-4 navbar-brand m-0 text-center" href="home.html">Brand Name</a>
+  			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav">
+    			<span class="navbar-toggler-icon"></span>
+  			</button>
+  			<div class="col-md-4 collapse navbar-collapse" id="navbarNav">
+    			<ul id="menu" class="navbar-nav ml-auto">
+     				<li class="nav-item ">
+     				   <a class="menu nav-link pb-0" href="home.html">Home <span class="sr-only">(current)</span></a>
+   				  	</li>
+    			  	<li class="nav-item">
+      			 		<a class="menu nav-link pb-0" href="about.html">About</a>
+     			 	</li>
+    			  	<li class="nav-item active">
+    			    	<a class="menu nav-link pb-0" href="gallery.html">Gallery</a>
+    			  	</li>
+    			  	<li class="nav-item ">
+    			    	<a class="menu nav-link pb-0" href="contact.html">Contact Us</a>
+    			  	</li>
+    			  	
+   			 	</ul>
+  			</div>
+		</nav>
+
+		<section id="jumbotron-gallery" class="jumbotron">
+			<div id="jumbo-text-container-gallery">
+				<h1 id="landing-contact" class="text-center animated fadeIn">GALLERY</h1>
+			</div>		
+		</section>
+
+
+		<div class="container-fluid">
+
+			<div class="row">
+				<div id="left" class="col-md-4 d-none d-sm-block">
+
+					<div class="list-group">
+						<h2>Categories</h2>
+						<a href="#" class="list-group-item list-group-item-active">Item 1</a>
+						<a href="#" class="list-group-item list-group-item-active">Item 2</a>
+						<a href="#" class="list-group-item list-group-item-active">Item 3</a>
+						<a href="#" class="list-group-item list-group-item-active">Item 4</a>
+						<a href="#" class="list-group-item list-group-item-active">Item 5</a>
+						<a href="#" class="list-group-item list-group-item-active">Item 6</a>
+					</div> <!-- end list group -->
+
+				</div> <!-- end left side -->
+
+				<div id="right" class="col-md-8 col-12">
+
+					<div class="container">
+						<div class="row">
+							<div class="com-12 col-md-6">
+								<div class="card" data-toggle="modal" data-target="#modal-1">
+									<img class="card-img-top img-fluid" src="assets/images/carousel1.jpg">
+									<h3 class="card-title text-center">Doge</h3>
+								</div>
+
+							</div>
+							<div class="com-12 col-md-6">
+								<div class="card" data-toggle="modal" data-target="#modal-2">
+									<img class="card-img-top img-fluid" src="assets/images/carousel3.jpg">
+									<h3 class="card-title text-center">Image 2</h3>
+								</div>
+							</div>
+							
+						</div>
+						<!-- modal itself -->
+						<div id="modal-1" class="modal fade">
+							<div class="modal-dialog" role="document">
+								<div class="modal-content">
+									<header class="modal-header"> 
+										<h5 class="modal-title">Doge</h5>
+										<button class="close" data-dismiss="modal">
+											<span>&times;</span>
+										</button>
+									</header>
+
+									<div class="modal-body">
+										<img class="img-fluid" src="assets/images/carousel1.jpg">
+									</div>
+									<footer class="modal-footer">
+										<button class="btn btn-danger" data-dismiss="modal">BABAYOU</button>
+									</footer>
+								</div>
+								
+							</div>
+						</div>
+
+
+
+							<!-- modal itself -->
+						<div id="modal-2" class="modal fade">
+							<div class="modal-dialog" role="document">
+								<div class="modal-content">
+									<header class="modal-header"> 
+										<h5 class="modal-title">Image 2</h5>
+										<button class="close" data-dismiss="modal">
+											<span>&times;</span>
+										</button>
+									</header>
+
+									<div class="modal-body">
+										<img class="img-fluid" src="assets/images/carousel3.jpg">
+									</div>
+									<footer class="modal-footer">
+										<button class="btn btn-danger" data-dismiss="modal">BABAYOU</button>
+									</footer>
+								</div>
+								
+							</div>
+						</div>
+
+						<div class="row">
+							<div class="com-12 col-md-6">
+								<div class="card" data-toggle="modal" data-target="#modal-1">
+									<img class="card-img-top img-fluid" src="assets/images/carousel1.jpg">
+									<h3 class="card-title text-center">Doge</h3>
+								</div>
+
+							</div>
+							<div class="com-12 col-md-6">
+								<div class="card" data-toggle="modal" data-target="#modal-2">
+									<img class="card-img-top img-fluid" src="assets/images/carousel3.jpg">
+									<h3 class="card-title text-center">Image 2</h3>
+								</div>
+							</div>
+							
+						</div>
+						<!-- modal itself -->
+						<div id="modal-1" class="modal fade">
+							<div class="modal-dialog" role="document">
+								<div class="modal-content">
+									<header class="modal-header"> 
+										<h5 class="modal-title">Doge</h5>
+										<button class="close" data-dismiss="modal">
+											<span>&times;</span>
+										</button>
+									</header>
+
+									<div class="modal-body">
+										<img class="img-fluid" src="assets/images/carousel1.jpg">
+									</div>
+									<footer class="modal-footer">
+										<button class="btn btn-danger" data-dismiss="modal">BABAYOU</button>
+									</footer>
+								</div>
+								
+							</div>
+						</div>
+
+
+
+							<!-- modal itself -->
+						<div id="modal-2" class="modal fade">
+							<div class="modal-dialog" role="document">
+								<div class="modal-content">
+									<header class="modal-header"> 
+										<h5 class="modal-title">Image 2</h5>
+										<button class="close" data-dismiss="modal">
+											<span>&times;</span>
+										</button>
+									</header>
+
+									<div class="modal-body">
+										<img class="img-fluid" src="assets/images/carousel3.jpg">
+									</div>
+									<footer class="modal-footer">
+										<button class="btn btn-danger" data-dismiss="modal">BABAYOU</button>
+									</footer>
+								</div>
+								
+							</div>
+						</div>
+							
+
+					
+						<div class="row">
+							<div class="com-12 col-md-6">
+								<div class="card" data-toggle="modal" data-target="#modal-1">
+									<img class="card-img-top img-fluid" src="assets/images/carousel1.jpg">
+									<h3 class="card-title text-center">Doge</h3>
+								</div>
+
+							</div>
+							<div class="com-12 col-md-6">
+								<div class="card" data-toggle="modal" data-target="#modal-2">
+									<img class="card-img-top img-fluid" src="assets/images/carousel3.jpg">
+									<h3 class="card-title text-center">Image 2</h3>
+								</div>
+							</div>
+							
+						</div>
+						<!-- modal itself -->
+						<div id="modal-1" class="modal fade">
+							<div class="modal-dialog" role="document">
+								<div class="modal-content">
+									<header class="modal-header"> 
+										<h5 class="modal-title">Doge</h5>
+										<button class="close" data-dismiss="modal">
+											<span>&times;</span>
+										</button>
+									</header>
+
+									<div class="modal-body">
+										<img class="img-fluid" src="assets/images/carousel1.jpg">
+									</div>
+									<footer class="modal-footer">
+										<button class="btn btn-danger" data-dismiss="modal">BABAYOU</button>
+									</footer>
+								</div>
+								
+							</div>
+						</div>
+
+
+
+							<!-- modal itself -->
+						<div id="modal-2" class="modal fade">
+							<div class="modal-dialog" role="document">
+								<div class="modal-content">
+									<header class="modal-header"> 
+										<h5 class="modal-title">Image 2</h5>
+										<button class="close" data-dismiss="modal">
+											<span>&times;</span>
+										</button>
+									</header>
+
+									<div class="modal-body">
+										<img class="img-fluid" src="assets/images/carousel3.jpg">
+									</div>
+									<footer class="modal-footer">
+										<button class="btn btn-danger" data-dismiss="modal">BABAYOU</button>
+									</footer>
+								</div>
+								
+							</div>
+						</div>
+						
+					</div> <!-- end of nested container -->
+
+				</div> <!-- end right side -->
+				
+			</div>
+
+		</div>
+
+		<footer class="footer bg-primary">
+
+			<p class="text-center mb-0 p-3">Kevin Jake Mendoza | Tuitt Coding Bootcamp</p>
+			
+		</footer>
+
+	</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	<!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+
+	<script src="assets/js/jquery-3.3.1.min.js"></script>
+
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+
+	<script src="assets/js/bootstrap.min.js"></script>
+</body>
+</html>

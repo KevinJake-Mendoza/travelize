@@ -1,0 +1,516 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'Chivo', sans-serif;
+}
+
+#jumbotron-landing{
+	width: 100%;
+	height: 100%;
+	background-image: url(../images/landing/bg.jpg);
+	background-attachment: fixed;
+	background-position: center;
+	background-size: cover;
+}
+
+#jumbo-div{
+	width: 80%;
+	height: 100vh;
+	margin: 0 auto;
+	padding-top: 7%;
+	background-color: transparent;
+	color: #f2f2f2;
+
+}
+
+#jumbo-bg{
+	height: 100%;
+	width: 100%;
+	background-color: rgba(0, 0, 0, 20%);
+}
+
+#landing-logo{
+	border: 1px solid black;
+	height: 250px;
+	width:  250px;
+
+
+}
+
+ /*start homepage*/
+
+ #container{
+ 	width: 100%;
+ }
+
+ #navbar{
+ 	position: absolute;
+ 	z-index: 5;
+ 	width: 100%;
+ 	background-color: rgba(0, 0, 0, .20);
+ 	height: : 15vh;
+ 	border-bottom: 2px solid rgba(255,255,255,.10)
+
+ }
+
+ #menu li a:hover{
+ 	font-size: 18px;
+ 	color: white;
+
+ }
+
+  #menu li a{
+  	height: 30px;
+  	width: 100px;
+  	padding: 0;
+  	margin: 5px;
+  	line-height: 30px;
+  }
+
+
+#search-icon{
+	color: white;
+}
+
+#search{
+	background-color: transparent;
+	border: 1px solid transparent;
+}
+
+#search:focus{
+	background-color: rgba(255,255,255,.50)
+}
+
+#search::placeholder{
+	color: white;
+}
+
+#carouselExampleIndicators div div img{
+	width: 100%;
+	height: 100vh;
+
+}
+
+.carousel-caption button a{
+	color: white;
+	text-decoration:none;
+}
+
+#africa{
+	background-image: url(../images/africa.jpg);
+	height: 100vh;
+	width: 100%;
+	background-attachment: fixed;
+	background-position: center;
+	background-size: cover;
+}
+
+.row{
+	height: 100%;
+	width: 100%;
+	border: 50px solid #f2f2f2;
+
+
+
+}
+
+#africa-div{
+	height: 50vh;
+	background-color: #f2f2f2;
+}
+
+#africa-btm{
+	height: 50vh;
+	width: 100%;
+	background-color: transparent;
+}
+
+
+
+#antartica{
+	background-image: url(../images/antartica.jpg);
+	height: 100vh;
+	width: 100%;
+	background-attachment: fixed;
+	background-position: center;
+	background-size: cover;
+}
+
+#antartica-div{
+	height: 50vh;
+	background-color: #f2f2f2;
+}
+
+#antartica-btm{
+	height: 50vh;
+	width: 100%;
+	background-color: transparent;
+}
+
+
+#asia{
+	background-image: url(../images/asia.jpg);
+	height: 100vh;
+	width: 100%;
+	background-attachment: fixed;
+	background-position: center;
+	background-size: cover;
+}
+
+#asia-div{
+	height: 50vh;
+	background-color: #f2f2f2;
+}
+
+#asia-btm{
+	height: 50vh;
+	width: 100%;
+	background-color: transparent;
+}
+
+
+#australia{
+	background-image: url(../images/australia.jpg);
+	height: 100vh;
+	width: 100%;
+	background-attachment: fixed;
+	background-position: center;
+	background-size: cover;
+}
+
+#australia-div{
+	height: 50vh;
+	background-color: #f2f2f2;
+}
+
+#australia-btm{
+	height: 50vh;
+	width: 100%;
+	background-color: transparent;
+}
+
+
+#europe{
+	background-image: url(../images/europe.jpg);
+	height: 100vh;
+	width: 100%;
+	background-attachment: fixed;
+	background-position: center;
+	background-size: cover;
+}
+
+#europe-div{
+	height: 50vh;
+	background-color: #f2f2f2;
+}
+
+#europe-btm{
+	height: 50vh;
+	width: 100%;
+	background-color: transparent;
+}
+
+
+#na{
+	background-image: url(../images/na.jpg);
+	height: 100vh;
+	width: 100%;
+	background-attachment: fixed;
+	background-position: center;
+	background-size: cover;
+}
+
+#na-div{
+	height: 50vh;
+	background-color: #f2f2f2;
+}
+
+#na-btm{
+	height: 50vh;
+	width: 100%;
+	background-color: transparent;
+}
+
+
+#sa{
+	background-image: url(../images/sa.jpg);
+	height: 100vh;
+	width: 100%;
+	background-attachment: fixed;
+	background-position: center;
+	background-size: cover;
+}
+
+#sa-div{
+	height: 50vh;
+	background-color: #f2f2f2;
+}
+
+#sa-btm{
+	height: 50vh;
+	width: 100%;
+	background-color: transparent;
+}
+
+.row div button a{
+	color: white;
+	text-decoration:none;
+
+}
+
+.row div button{
+	margin-top: 30px;
+}
+
+footer{
+	color: white;
+	background-color: black;
+}
+
+
+
+
+/*about page*/
+
+#jumbotron-about{
+	width: 100%;
+	height: 100vh;
+	background-image: url(../images/about3.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-attachment: fixed;
+	border-radius: 0;
+	padding: 0;
+}
+
+
+#jumbotron-about h1{
+	padding-top: 20%;
+	color: #f2f2f2;
+	font-weight: bold;
+	letter-spacing: .5em;
+}
+
+
+/*Contact Us Page*/
+
+#jumbotron-contact{
+	width: 100%;
+	height: 100vh;
+	background-image: url(../images/contact1.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-attachment: fixed;
+	border-radius: 0;
+	padding: 0;
+}
+
+#jumbotron-contact h1{
+	padding-top: 20%;
+	color: #f2f2f2;
+	font-weight: bold;
+	letter-spacing: .5em;
+
+}
+
+#jumbotron-gallery{
+	width: 100%;
+	height: 100vh;
+	background-image: url(../images/gallery.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-attachment: fixed;
+	border-radius: 0;
+	padding: 0;
+}
+
+#jumbotron-gallery h1{
+	padding-top: 20%;
+	color: #f2f2f2;
+	font-weight: bold;
+	letter-spacing: .5em;
+}
+
+.bg-black{
+	width: 100%;
+	height: 100%;
+	background-color: rgba(0, 0, 0, .15);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 480px){
+
+	#navbar{
+		background-color: rgba(0, 0, 0, .5);
+	}
+
+	#jumbotron-landing{
+		width: 100%;
+		height: 100%;
+		background-attachment: fixed;
+		background-position: center;
+		background-size: cover;
+	}
+
+	#jumbo-div h1{
+		font-size: 25px;
+		font-weight: bold;
+	}
+
+
+	/*home page*/
+
+	form{
+		display: block;
+	}
+
+	.row{
+		border-top: 20px solid #f2f2f2;
+		border-right: 15px solid #f2f2f2;
+		border-left: 15px solid #f2f2f2;
+		border-bottom:20px solid #f2f2f2;
+
+	}
+
+	#search{
+		width: 80%;
+
+	}
+
+	#brand-name{
+		width: 70%;
+		text-align: left;
+	}
+
+	.carousel-caption h2{
+		font-size: 50px;
+	}
+
+	.row div h2{
+		font-size: 25px;
+	}
+
+	.row div p{
+		font-size: 12px;
+	}
+
+	.africa{
+		height: 100%;
+	}
+	.africa-div{
+		height: 100%;
+	}
+
+	.row div button{
+	margin-top: 0;
+	position: relative;
+	left: 33%;
+	}
+
+	.row div hr{
+		display: none;
+		visibility: hidden;
+	}
+
+
+
+/*	about page*/
+	
+
+	#jumbotron-about h1{
+		padding-top: 50%;
+		letter-spacing: 0;
+	}
+
+	#jumbo-text-container{
+		width: 50%;
+		position: relative;
+		left: 25%;
+		top: 25%;
+	}
+
+	#jumbo-text-container-gallery{
+		text-decoration: none;
+		padding-top: 50%;
+	}
+
+	#jumbotron-gallery{
+		width: 100%;
+		height: 100vh;
+	}
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
