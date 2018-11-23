@@ -345,7 +345,7 @@ html{
 
 footer{
 	color: white;
-	background-color: black;
+	background-color: rgba(49,105,138,1);
 }
 
 
@@ -384,7 +384,7 @@ footer{
 	z-index: 10;
 	display: none;
 	visibility: hidden;
-
+	background-color: rgba(210,180,140,1);
 }
 
 #vision{
@@ -398,6 +398,7 @@ footer{
 	z-index: 10;
 	display: none;
 	visibility: hidden;
+	background-color: rgba(78,172,219,1);
 
 }
 
@@ -448,6 +449,13 @@ footer{
 
 }
 
+#git{
+	font-family: 'Cassandra', sans-serif;
+	font-size: 100px;
+}
+
+/*gallery page*/
+
 #jumbotron-gallery{
 	width: 100%;
 	height: 100vh;
@@ -459,6 +467,181 @@ footer{
 	border-radius: 0;
 	padding: 0;
 }
+
+.scrollable{
+	height: 60vh;
+	width: 500px;
+	color: black;
+	overflow-y: scroll;
+	overflow-x: hidden;
+	border: 0;
+	border-radius: 20px;
+	border: 5px solid rgba(88,75,58,1);
+}
+
+.scrollable table tbody tr {
+	width: 500px;
+	height: 500px;
+}
+
+#gal-africa{
+	position: absolute;
+	z-index: 10;
+	background-color: rgba(255, 255, 255, 0.8);
+	bottom: 20%;
+	left: 33%;
+	display: none;
+	visibility: hidden;
+}
+
+#gal-antartica{
+	position: absolute;
+	z-index: 10;
+	background-color: rgba(255, 255, 255, 0.8);
+	bottom: 20%;
+	left: 33%;
+	display: none;
+	visibility: hidden;
+}
+
+#gal-asia{
+	position: absolute;
+	z-index: 10;
+	background-color: rgba(255, 255, 255, 0.8);
+	bottom: 20%;
+	left: 33%;
+	display: none;
+	visibility: hidden;
+}
+
+#gal-australia{
+	position: absolute;
+	z-index: 10;
+	background-color: rgba(255, 255, 255, 0.8);
+	bottom: 20%;
+	left: 33%;
+	display: none;
+	visibility: hidden;
+}
+#gal-europe{
+	position: absolute;
+	z-index: 10;
+	background-color: rgba(255, 255, 255, 0.8);
+	bottom: 20%;
+	left: 33%;
+	display: none;
+	visibility: hidden;
+}
+
+#gal-na{
+	position: absolute;
+	z-index: 10;
+	background-color: rgba(255, 255, 255, 0.8);
+	bottom: 20%;
+	left: 33%;
+	display: none;
+	visibility: hidden;
+}
+#gal-sa{
+	position: absolute;
+	z-index: 10;
+	background-color: rgba(255, 255, 255, 0.8);
+	bottom: 20%;
+	left: 33%;
+	display: none;
+	visibility: hidden;
+}
+
+#btn-africa{
+	position: absolute;
+	bottom: 5%;
+	left: 10%;
+}
+
+#btn-africa:focus ~ #gal-africa{
+	display: block;
+	visibility: visible;
+
+}
+
+#btn-antartica{
+	position: absolute;
+	bottom: 5%;
+	left: 20%;
+}
+
+#btn-antartica:focus ~ #gal-antartica{
+	display: block;
+	visibility: visible;
+
+}
+
+#btn-asia{
+	position: absolute;
+	bottom: 5%;
+	left: 32.5%;
+}
+
+#btn-asia:focus ~ #gal-asia{
+	display: block;
+	visibility: visible;
+
+}
+
+#btn-australia{
+	position: absolute;
+	bottom: 5%;
+	left: 41.5%;
+}
+
+#btn-australia:focus ~ #gal-australia{
+	display: block;
+	visibility: visible;
+
+}
+
+#btn-europe{
+	position: absolute;
+	bottom: 5%;
+	left: 54%;
+}
+
+#btn-europe:focus ~ #gal-europe{
+	display: block;
+	visibility: visible;
+
+}
+
+#btn-na{
+	position: absolute;
+	bottom: 5%;
+	left: 65%;
+}
+
+#btn-na:focus ~ #gal-na{
+	display: block;
+	visibility: visible;
+
+}
+
+#btn-sa{
+	position: absolute;
+	bottom: 5%;
+	left: 80%;
+}
+
+#btn-sa:focus ~ #gal-sa{
+	display: block;
+	visibility: visible;
+
+}
+
+#contact-container{
+	border: 5px solid skyblue;
+	padding: 10px;
+	background-color: rgba(231,214,200, 1);
+}
+
 
 #jumbotron-gallery h1{
 	padding-top: 20%;
@@ -472,6 +655,7 @@ footer{
 	height: 100%;
 	background-color: rgba(0, 0, 0, .15);
 }
+
 
 footer hr{
 	border: 1px dotted rgba(255, 255, 255, .3); 
