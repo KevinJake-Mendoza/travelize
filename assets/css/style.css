@@ -35,9 +35,11 @@ html{
 	width: 80%;
 	height: 100vh;
 	margin: 0 auto;
-	padding-top: 7%;
+	padding-top: 32px;
+	padding-bottom: 32px;
 	background-color: transparent;
 	color: #f2f2f2;
+
 
 }
 
@@ -759,6 +761,20 @@ footer{
 	#jumbo-div h1{
 		font-size: 25px;
 		font-weight: bold;
+
+	}
+
+	#jumbo-div img{
+		height: 150px;
+		width: 150px;
+	}
+
+	#jumbo-div p{
+		margin-bottom: 20px;
+	}
+
+	#jumbo-div{
+		padding-top:20px;
 	}
 
 
@@ -844,6 +860,51 @@ footer{
 		width: 100%;
 		height: 100vh;
 	}
+
+
+
+
+	/*gallery page*/
+
+	.scrollable{
+
+		width: 70%;
+		height: 50vh;
+	}
+
+	#gal-africa{
+		left: 20%;
+	}
+
+	#gal-antartica{
+		left: 20%;
+	}
+
+	#gal-asia{
+		left: 20%;
+	}
+
+	#gal-australia{
+		left: 20%;
+	}
+
+	#gal-europe{
+		left: 20%;
+	}
+
+	#gal-na{
+		left: 20%;
+	}
+
+	#gal-sa{
+		left: 20%;
+	}
+
+	#jumbotron-gallery{
+		height: 100vh;
+	}
+
+
 
 }
 
