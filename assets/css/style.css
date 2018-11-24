@@ -919,6 +919,10 @@ footer{
 		visibility: visible;
 	}
 
+	#jumbotron-about{
+		background-attachment: scroll;
+	}
+
 
 
 
