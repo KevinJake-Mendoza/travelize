@@ -1024,6 +1024,18 @@ footer{
 		left: 0%;
 	}
 
+	.modal-footer{
+	display: block;
+	border-radius: 0;
+
+
+	}
+
+	#btn-close {
+		position: relative;
+		left: 80%;
+	}
+
 
 	
 
