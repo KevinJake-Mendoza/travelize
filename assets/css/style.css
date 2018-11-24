@@ -199,6 +199,19 @@ html{
 	border: 5px dotted #080061;
 }
 
+#ct-africa button,
+#ct-antartica button,
+#ct-asia button,
+#ct-australia button,
+#ct-europe button,
+#ct-sa button,
+#ct-na button {
+
+	position: absolute;
+	left: 47%;
+}
+
+
 
 
 #africa-div{
