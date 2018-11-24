@@ -42,7 +42,7 @@
    				 <i id="search-icon" class="fas fa-search mr-4"></i>
    				 <input id="search" class="form-control mr-sm-2" type="search" placeholder="Search">
   			</form>
-  			<a id="brand-name" class="col-md-4 navbar-brand m-0 text-center" href="home.html">Travelize</a>
+  			<a id="brand-name" class="col-md-4 navbar-brand m-0" href="home.html">Travelize</a>
   			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav">
     			<span class="navbar-toggler-icon"></span>
   			</button>
@@ -68,7 +68,7 @@
 			<div id="jumbo-text-container">
 				<h1 id="landing-about" class="text-center animated fadeIn">KNOW ABOUT US</h1>
 			</div>
-			<div i>
+			<div>
 				
 			</div>
 			<div >
@@ -76,55 +76,109 @@
 			</div>	
 			
 		</div>
-		<button id="btn-mission" class="btn btn-primary">Our Mission</button>
-		<button id="btn-vision" class="btn btn-primary">Our Vision</button>
-		<section id="mission" class="jumbotron p-5 animated fadeIn slow">
-			<h2 class="about-tags mb-5">Our Mission</h2>
 
-			<p class="text-justify">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-			tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-			quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-			consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-			cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-			proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-			
-			
-			
-			
-		</section> <!-- end mission -->
-	
-		<section id="vision" class="jumbotron p-5 animated fadeIn slow">
-			<h2 class="about-tags mb-5 text-right">Our Vision</h2>
+		<div id="about-1">	
+			<button id="btn-about-mission" class="btn btn-primary">Our Mission</button>
+			<button id="btn-about-vision" class="btn btn-primary">Our Vision</button>
+			<section id="mission" class="jumbotron p-5 animated fadeIn slow">
+				<h2 class="about-tags mb-5">Our Mission</h2>
 
-			<p class="text-justify">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-			tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-			quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-			consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-			cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-			proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-			
-			
-			
-			
-		</section> <!-- end vision -->
-
-		</section>
-
-			<footer class="footer">
-
-				<p class="text-center mb-0 p-3">Kevin Jake Mendoza | Tuitt Coding Bootcamp</p>
-		      	<hr>
-		      	<img src="assets/images/social/fb.svg">
-		     	 <img src="assets/images/social/twitter.svg">
-		      	<img src="assets/images/social/google.svg">
-		      	<img src="assets/images/social/yt.svg">
+				<p class="text-justify">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+				tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+				quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+				consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+				cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+				proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
 				
-			</footer>
+				
+				
+				
+			</section> <!-- end mission -->
+		
+			<section id="vision" class="jumbotron p-5 animated fadeIn slow">
+				<h2 class="about-tags mb-5 text-right">Our Vision</h2>
+
+				<p class="text-justify">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+				tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+				quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+				consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+				cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+				proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+				
+				
+				
+				
+			</section> <!-- end vision -->
+		</div>	
+
+
+	<section id="about-2">
+
+		<div class="accordion" id="mission-vision">
+			<div class="card">
+	     		<div class="card-header">
+	       			<h5 class="mb-0">
+	         			<button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapse-mission"> OUR MISSION </button>
+	        		</h5>
+	      		</div>
+
+	      		<div id="collapse-mission" class="collapse hide" data-parent="#mission-vision">
+	        		<div id="card-body-mission" class="card-body">
+	          			<p class="text-justify"><em>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+	        			tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+	        			quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+	          			consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+	          			cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+	          			proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</em></p>
+
+	        		</div>
+	      		</div>
+	    	</div>
+
+
+	    	<div class="card">
+	     		<div class="card-header">
+	       			<h5 class="mb-0">
+	         			<button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapse-vision"> OUR VISION </button>
+	        		</h5>
+	      		</div>
+
+	      		<div id="collapse-vision" class="collapse hide" data-parent="#mission-vision">
+	        		<div id="card-body-vision" class="card-body">
+	          			<p class="text-justify"><em>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+	        			tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+	        			quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+	          			consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+	          			cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+	          			proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</em></p>
+
+	        		</div>
+	      		</div>
+	    	</div>
+
+	    </div>
+
+
+  </section>
+
+
+	<section>
+
+		<footer class="footer">
+
+			<p class="text-center mb-0 p-3">Kevin Jake Mendoza | Tuitt Coding Bootcamp</p>
+	      	<hr>
+	      	<div id="footer-img">
+		        <img src="assets/images/social/fb.svg">
+		        <img src="assets/images/social/twitter.svg">
+		        <img src="assets/images/social/google.svg">
+		        <img src="assets/images/social/yt.svg">
+	      	</div>
+			
+		</footer>
 
 		
-		</section>
-
-	</div>
+	</section>
 
 	
 

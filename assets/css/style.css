@@ -2,6 +2,8 @@ html{
 	scroll-behavior: smooth;
 }
 
+
+
 *{
 	margin: 0;
 	padding: 0;
@@ -18,6 +20,7 @@ html{
 	font-family: 'Cassandra', sans-serif;
 	font-size: 40px;
 	color: #f2f2f2;
+	text-align: center;
 }
 
 
@@ -343,7 +346,80 @@ html{
 
 .row div button{
 	margin-top: 30px;
+
 }
+
+.card-body img{
+	width: 100%;
+	height: 80vh;
+}
+
+.card-header h5 button {
+
+	background-color: black;
+	color: white;
+	height: 100%
+	width: 100%;
+	text-decoration: none;
+}
+
+.card-header h5 button:focus{
+	background-color: black;
+	color: white;
+	height: 100%
+	width: 100%;
+	text-decoration: none;
+}
+
+.card-header{
+	background-color: black;
+	border-radius: 20px;
+}
+
+#card-body-africa{
+	background-color: rgba(238, 217, 27, 0.37);
+	border: 1px dotted #080061;
+
+
+}
+
+#card-body-antartica{
+	background-color: rgba(27, 185, 238, 0.37);
+	border: 1px dotted #080061;
+}
+
+#card-body-asia{
+	background-color: rgba(27, 238, 80, 0.37);
+	border: 1px dotted #080061;
+}
+
+#card-body-australia{
+	background-color: rgba(238, 133, 27, 0.37);
+	border: 1px dotted #080061;
+}
+
+#card-body-europe{
+	background-color: rgba(185, 27, 238, 0.37);
+	border: 1px dotted #080061;
+}
+
+#card-body-na{
+	background-color: rgba(27, 45, 238, 0.37);
+	border: 1px dotted #080061;
+}
+
+#card-body-sa{
+	background-color: rgba(238, 27, 94, 0.37);
+	border: 1px dotted #080061;
+}
+
+#continent-2{
+	visibility: hidden;
+	display: none;
+}
+
+
+
 
 footer{
 	color: white;
@@ -404,29 +480,48 @@ footer{
 
 }
 
-#btn-mission{
+#btn-about-mission{
 	position: absolute;
-	bottom: 3%;
-	left: 20%;
+	z-index: 25;
+	left: 15%;
+	bottom: 4%;
 }
 
-#btn-vision{
-
+#btn-about-vision{
 	position: absolute;
-	bottom: 3%;
-	left: 72%;
-	
+	z-index: 25;
+	left: 77.5%;
+	bottom: 4%;
 }
 
-#btn-mission:focus ~ #mission{
+#btn-about-mission:focus ~ #mission{
 	visibility: visible;
 	display: block;
 }
 
-#btn-vision:focus ~ #vision{
+#btn-about-vision:focus ~ #vision{
 	visibility: visible;
 	display: block;
 }
+
+#card-body-mission{
+border: 5px dotted #080061;
+background-color: rgba(210,180,140,1);
+
+}
+
+#card-body-vision{
+
+	border: 5px dotted #080061;
+	background-color: rgba(78,172,219,1);
+}
+
+#about-2{
+	visibility: hidden;
+	display: none;
+}
+
+
 
 
 /*Contact Us Page*/
@@ -470,173 +565,106 @@ footer{
 	padding: 0;
 }
 
-.scrollable{
-	height: 60vh;
-	width: 500px;
-	color: black;
-	overflow-y: scroll;
-	overflow-x: hidden;
-	border: 0;
-	border-radius: 20px;
-	border: 5px solid rgba(88,75,58,1);
-}
-
-.scrollable table tbody tr {
-	width: 500px;
+#carouselExampleFade div div img{
 	height: 500px;
+	width: 100%;
+
 }
 
-#gal-africa{
-	position: absolute;
-	z-index: 10;
-	background-color: rgba(255, 255, 255, 0.8);
-	bottom: 20%;
-	left: 33%;
-	display: none;
-	visibility: hidden;
+#carousel-fade-antartica div div img{
+	height: 500px;
+	width: 100%;
+
 }
 
-#gal-antartica{
-	position: absolute;
-	z-index: 10;
-	background-color: rgba(255, 255, 255, 0.8);
-	bottom: 20%;
-	left: 33%;
-	display: none;
-	visibility: hidden;
+#carousel-fade-asia div div img{
+	height: 500px;
+	width: 100%;
+
 }
 
-#gal-asia{
-	position: absolute;
-	z-index: 10;
-	background-color: rgba(255, 255, 255, 0.8);
-	bottom: 20%;
-	left: 33%;
-	display: none;
-	visibility: hidden;
+#carousel-fade-australia div div img{
+	height: 500px;
+	width: 100%;
+
 }
 
-#gal-australia{
-	position: absolute;
-	z-index: 10;
-	background-color: rgba(255, 255, 255, 0.8);
-	bottom: 20%;
-	left: 33%;
-	display: none;
-	visibility: hidden;
-}
-#gal-europe{
-	position: absolute;
-	z-index: 10;
-	background-color: rgba(255, 255, 255, 0.8);
-	bottom: 20%;
-	left: 33%;
-	display: none;
-	visibility: hidden;
+#carousel-fade-europe div div img{
+	height: 500px;
+	width: 100%;
+
 }
 
-#gal-na{
-	position: absolute;
-	z-index: 10;
-	background-color: rgba(255, 255, 255, 0.8);
-	bottom: 20%;
-	left: 33%;
-	display: none;
-	visibility: hidden;
-}
-#gal-sa{
-	position: absolute;
-	z-index: 10;
-	background-color: rgba(255, 255, 255, 0.8);
-	bottom: 20%;
-	left: 33%;
-	display: none;
-	visibility: hidden;
+#carousel-fade-na div div img{
+	height: 500px;
+	width: 100%;
+
 }
 
-#btn-africa{
+#carousel-fade-sa div div img{
+	height: 500px;
+	width: 100%;
+
+}
+
+
+#btn-continent{
 	position: absolute;
+	width: 100%;
 	bottom: 5%;
-	left: 10%;
+	left: 5%;
+	width: 100%;
+	display: inline;
+	
 }
 
-#btn-africa:focus ~ #gal-africa{
-	display: block;
-	visibility: visible;
+#modal-body-africa,
+#modal-body-antartica,
+#modal-body-asia,
+#modal-body-australia,
+#modal-body-europe,
+#modal-body-na,
+#modal-body-sa
 
+{
+	background-color: black;
+	border-top-left-radius: 15px;
+	border-top-right-radius: 15px;
 }
 
-#btn-antartica{
-	position: absolute;
-	bottom: 5%;
-	left: 20%;
+.modal-footer{
+	border: 0;
+	background-color: #EBBB32;
+	border-bottom-left-radius: 15px;
+	border-bottom-right-radius: 15px;
 }
 
-#btn-antartica:focus ~ #gal-antartica{
-	display: block;
-	visibility: visible;
 
-}
 
-#btn-asia{
-	position: absolute;
-	bottom: 5%;
-	left: 32.5%;
-}
 
-#btn-asia:focus ~ #gal-asia{
-	display: block;
-	visibility: visible;
 
-}
 
-#btn-australia{
-	position: absolute;
-	bottom: 5%;
-	left: 41.5%;
-}
 
-#btn-australia:focus ~ #gal-australia{
-	display: block;
-	visibility: visible;
 
-}
 
-#btn-europe{
-	position: absolute;
-	bottom: 5%;
-	left: 54%;
-}
 
-#btn-europe:focus ~ #gal-europe{
-	display: block;
-	visibility: visible;
 
-}
+.btn-default {
+    top: 25%;
+    left:25%; 
+    color: #999; 
+    background: #fffccc; 
+} 
 
-#btn-na{
-	position: absolute;
-	bottom: 5%;
-	left: 65%;
-}
 
-#btn-na:focus ~ #gal-na{
-	display: block;
-	visibility: visible;
 
-}
 
-#btn-sa{
-	position: absolute;
-	bottom: 5%;
-	left: 80%;
-}
 
-#btn-sa:focus ~ #gal-sa{
-	display: block;
-	visibility: visible;
 
-}
+
+
+
+/*contact page*/
 
 #contact-container{
 	border: 5px solid skyblue;
@@ -741,9 +769,19 @@ footer{
 
 @media only screen and (max-width: 480px){
 
+	#continent-1{
+		display: none;
+		visibility: hidden;
+	}
+
+	#continent-2{
+		display: block;
+		visibility: visible;
+	}
+
 	#brand-name{
 		position: relative;
-		right: 20%;
+		
 	}
 
 	#navbar{
@@ -851,14 +889,34 @@ footer{
 		top: 25%;
 	}
 
-	#jumbo-text-container-gallery{
-		text-decoration: none;
+	#jumbo-text-container-gallery h1{
+		
+		letter-spacing: 0em;
+		padding-top: 50%;
+		
+	}
+
+	#landing-gallery{
+		letter-spacing: 0em;
 		padding-top: 50%;
 	}
 
 	#jumbotron-gallery{
 		width: 100%;
 		height: 100vh;
+
+
+	}
+
+	#about-1{
+		display: none;
+		visibility: hidden;
+
+	}
+
+	#about-2{
+		display: block;
+		visibility: visible;
 	}
 
 
@@ -904,9 +962,132 @@ footer{
 		height: 100vh;
 	}
 
+	#footer-img{
+
+		padding-right: 30%;
+
+	}
+
+	#modal-gal-africa{
+		width: 100%;
+		padding-top: 10%;
+	}
+
+	#modal-gal-asia{
+		width: 100%;
+	}
+
+	#modal-gal-antartica{
+		width: 100%;
+	}
+
+	#modal-gal-australia{
+		width: 100%;
+	}
+
+	#modal-gal-europe{
+		width: 100%;
+	}
+
+	#modal-gal-na{
+		width: 100%;
+	}
+
+	#modal-gal-sa{
+		width: 100%;
+	}
+
+	#btn-continent{
+		left: 0%;
+		padding-left: 10px; 
+	}
+
+	#jumbotron-contact{
+		padding-top: 50%;
+	}
+
+
+
+	/*contact us page*/
+
+	#locate{
+		left: 30%;
+		margin-top: 0;
+	}
+
+	#btn-submit{
+		position: relative;
+		left: 0%;
+	}
+
+
+	
+
 
 
 }
+
+
+
+
+
+
+
+
+@media only screen and (min-width : 768px) and (max-width: 991px){
+
+
+	/*navbar*/
+
+	#brand-name{
+		padding: 0;
+		text-align: left;
+	}
+
+	#search-icon{
+		visibility: hidden;
+		display: none;
+	}
+
+
+
+
+
+	/*gallery page*/
+
+	#btn-about-vision{
+		left: 72%;
+	}
+
+	#btn-continent{
+		left: 0%;
+		padding-left: 10px; 
+	}
+
+	#jumbo-text-container-gallery{
+		padding-top: 50%;
+	}
+
+
+
+ }
+
+
+
+ @media only screen and (min-width : 992px){
+
+ 	
+
+ 	.container-fluid{
+ 		width: 100%;
+ 		padding: 0;
+ 		margin: 0;
+ 	}
+
+ 	#jumbo-text-container-gallery{
+ 		padding-top: 0;
+ 	}
+ }
 
 
 
