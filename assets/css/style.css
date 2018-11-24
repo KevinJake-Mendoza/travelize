@@ -118,6 +118,11 @@ html{
 	text-decoration:none;
 }
 
+.mobile-btn-2{
+	visibility: hidden;
+	display: none;
+}
+
 #africa{
 	background-image: url(../images/africa.jpg);
 	height: 100vh;
@@ -845,6 +850,21 @@ footer{
 	.carousel-caption h2{
 		font-size: 50px;
 	}
+
+	.mobile-btn-2{
+		visibility: visible;
+		display: block;
+		position: relative;
+		left: 28%;
+	}
+
+	.mobile-btn-1{
+		visibility: hidden;
+		display: none;
+		
+	}
+
+
 
 	.row div h2{
 		font-size: 25px;
