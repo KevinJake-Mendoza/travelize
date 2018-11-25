@@ -59,6 +59,16 @@ html{
 
 }
 
+#takeover a{
+	color: white;
+	text-decoration: none;
+}
+
+#takeover a:hover{
+	color: white;
+	text-decoration: none;
+}
+
  /*start homepage*/
 
  #container{
