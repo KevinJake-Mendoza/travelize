@@ -638,10 +638,9 @@ background-color: rgba(210,180,140,1);
 
 #btn-continent{
 	position: absolute;
-	width: 100%;
+	width: 95%;
 	bottom: 5%;
 	left: 5%;
-	width: 100%;
 	display: inline;
 	
 }
